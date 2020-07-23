@@ -1,0 +1,98 @@
+h1{
+    color: black;
+    background-color: blueviolet;
+}
+.main{
+   display: inline;
+}
+.main :hover{
+    color:yellowgreen;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+.button_group{
+    width: 100%;
+    display: flex;
+  }
+  button {
+      font-size: 1em;	
+    font-weight: 300;
+      border: 0;
+      padding: 1em 2em;
+    margin: 0.5em 0;
+      width: 100%;
+    background: violet 
+  }
+  button:nth-child(2){
+      margin: 0.5em;
+  }
+  button:hover{
+    background: blueviolet;
+  }
+  
+  #counter{
+      font-size: 3em;
+      text-align: center;
+    width: 100%;
+    display: block;
+    background:white;
+    padding: 2em 0;
+  }
+
+  h1 {
+    margin-left: 70px;
+    }
+    form li {
+    list-style: none;
+    margin-bottom: 5px;
+    }
+    
+    form ul li label{
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    }
+    
+    form ul li input, select, span {
+    float: left;
+    margin-bottom: 10px;
+    background-color: teal;
+    }
+    
+    form textarea {
+    float: left;
+    width: 350px;
+    height: 150px;
+    }
+    
+    [type="submit"] {
+    clear: left;
+    margin: 20px 0 0 230px;
+    font-size:18px
+    }
+    
+    p {
+    margin-left: 70px;
+    font-weight: bold;
+    }
+
+.img1{
+  width: 100px;
+  height: 80px;
+  cursor: pointer;
+}
+.bigImage{
+  width: 500px;
+  height: 350px;
+}
+h1{
+  padding-top: 20px;
+  margin: 20px;
+  text-align: center;
+}

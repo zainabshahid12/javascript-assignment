@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<body>
+    <div>
+        <h1>FUNCTIONS, SWITCH STATEMENTS, WHILE… DOWHILE LOOPS </h1>
+    </div>
+    <input type="text" id = "year"/> 
+      
+    <input type="button" id="button" onClick="isLeapYear()"
+            value="Check Leap Year"> 
+      
+    <p id="GFG"></p> 
+
+    
+  <script src="app2.js"></script>
+  <div>
+      <h1>Events</h1>
+  </div>
+  <div>
+      <a href="https://www.drivespark.com/images/2020-06/2021-bmw-m5-competition-exterior-5.jpg" onclick="clickbtn()">Link</a>
+  </div>
+  <div class="main">
+      <img src="images/mob1.jpg" alt="" height="200px" width="200px" onclick="showAlert()" >
+      <img src="images/mob2.jpg" alt="" height="200px" width="200px" onclick="showAlert()" >
+      <img src="images/mob3.png" alt="" height="200px" width="200px" onclick="showAlert()" >
+      <img src="images/mob4.jpg" alt="" height="200px" width="200px" onclick="showAlert()" >
+</div>
+<table id="myTable">
+    <tr>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Class</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>Jhone</td>
+        <td>10</td>
+        <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Doe</td>
+        <td>9</td>
+        <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>mark</td>
+        <td>10</td>
+        <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>james</td>
+      <td>8</td>
+      <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>olivia</td>
+        <td>7</td>
+        <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>danica</td>
+        <td>9</td>
+        <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>jessica</td>
+        <td>10</td>
+        <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>elif</td>
+        <td>8</td>
+        <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>ola</td>
+        <td>6</td>
+        <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>nadia</td>
+        <td>9</td>
+        <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>carla</td>
+        <td>10</td>
+        <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      </tr>
+</table>
+<img class="img" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="" onmouseover="changeImage()" id="img" onmouseout="changeImageBefore()">
+<div id="counter">0</div>
+<div class="button_group">
+	<button onclick="subtract()" id="subtract">-</button>
+	<button onclick="reset()" id="reset">Reset</button>
+	<button onclick="add()" id="add">+</button>
+</div>
+
+<div>
+  <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab explicabo possimus dolorem iure corporis ad fuga dignissimos, autem laboriosam aspernatur magni, ex id hic deserunt animi voluptatem rerum nihil. <a href="javascript:void(0);" onclick="readmore()">read more</a></p>
+</div>
+<table id="myTable">
+  <tr>
+      <th>Index</th>
+      <th>Name</th>
+      <th>Class</th>
+      <th></th>
+  </tr>
+  <tr>
+      <td>0</td>
+      <td>Jhone</td>
+      <td>10</td>
+      <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      <td><input type="button" value="Edit Row" onclick="SomeEditRowFunction(this)"></td>
+  </tr>
+  <tr>
+      <td>1</td>
+      <td>Doe</td>
+      <td>9</td>
+      <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      <td><input type="button" value="Edit Row" onclick="SomeEditRowFunction(this)"></td>
+  </tr>
+  <tr>
+      <td>2</td>
+      <td>mark</td>
+      <td>10</td>
+      <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      <td><input type="button" value="Edit Row" onclick="SomeEditRowFunction(this)"></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>james</td>
+    <td>8</td>
+    <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+    <td><input type="button" value="Edit Row" onclick="SomeEditRowFunction(this)"></td>
+  </tr>
+  <tr>
+      <td>4</td>
+      <td>olivia</td>
+      <td>7</td>
+      <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      <td><input type="button" value="Edit Row" onclick="SomeEditRowFunction(this)"></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>danica</td>
+      <td>9</td>
+      <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      <td><input type="button" value="Edit Row" onclick="SomeEditRowFunction(this)"></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>jessica</td>
+      <td>10</td>
+      <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      <td><input type="button" value="Edit Row" onclick="SomeEditRowFunction(this)"></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>elif</td>
+      <td>8</td>
+      <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      <td><input type="button" value="Edit Row" onclick="SomeEditRowFunction(this)"></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>ola</td>
+      <td>6</td>
+      <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      <td><input type="button" value="Edit Row" onclick="SomeEditRowFunction(this)"></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>nadia</td>
+      <td>9</td>
+      <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      <td><input type="button" value="Edit Row" onclick="SomeEditRowFunction(this)"></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>carla</td>
+      <td>10</td>
+      <td><input type="button" value="Delete Row" onclick="SomeDeleteRowFunction()"></td>
+      <td><input type="button" value="Edit Row" onclick="SomeEditRowFunction(this)"></td>
+    </tr>
+</table>
+<div>
+    <h1> DOM </h1>
+  <div id=”form-content” class=”content”>
+  <label for=”first-name”>First Name</label>
+  <input type=”text” id=”first-name” />
+  <label for=”last-name”>Last Name</label>
+  <input type=”text” id=”last-name” />
+  <label for=”email”>Email</label>
+  <input type=”text” id=”email” />
+  </div>
+  <div id=”main-content” class=”content”>
+  <p class=”render”> First Name : Zainab</p>
+  <p class=”render” id=”lastName”>Last Name: Shahid</p>
+  <p class=”render”> Email : Zainabshahid600@gmail.com</p>
+  <p class=”render”> Country : Pakistan </p>
+  <p class=”render”> contact : +92 300 1234567</p>
+  </div>
+  </div>
+
+  <div>
+    <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" class="img1" src="images/sea1.jpg" alt="">
+    <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" class="img1" src="images/sea2.jpg" alt="">
+    <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" class="img1" src="images/sea3.jpg" alt="">
+    <img onclick="showImage(this)" data-toggle="modal" data-target="#exampleModal" class="img1" src="images/sea4.jpg" alt="">
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img class="bigImage" src="" alt="" id="modalImage">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    
+  
+  <div class="box"> 
+            
+    <p id="geeks" GFG="250" alt="Geeksforgeeks" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quod. Quaerat commodi, ullam culpa perferendis odit neque tempore doloribus eaque illo minima blanditiis ratione. Possimus ullam voluptas ipsum officia dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aspernatur delectus! Inventore dolores repellat, earum sit, accusantium sed, suscipit in laborum incidunt ipsa modi rem enim quis vero rerum dolor!</p>
+  </div> 
+  <hr> 
+  
+  <button type="button" onclick="zoomin()"> 
+    Zoom-In 
+  </button> 
+  
+  <button type="button" onclick="zoomout()">  
+    Zoom-Out 
+  </button> 
+  
+  
+  <h1>Registration Form</h1>
+  <div class="container">
+  <form name='registration' onSubmit="return formValidation();">
+  <ul>
+  <li><label for="userid">User id:</label></li>
+  <li><input type="text" name="userid" size="12" /></li>
+  <li><label for="passid">Password:</label></li>
+  <li><input type="password" name="passid" size="12" /></li>
+  <li><label for="username">Name:</label></li>
+  <li><input type="text" name="username" size="50" /></li>
+  <li><label for="address">Address:</label></li>
+  <li><input type="text" name="address" size="50" /></li>
+  <li><label for="country">Country:</label></li>
+  <li><select name="country">
+  <option selected="" value="Default">(Please select a country)</option>
+  <option value="AF">Australia</option>
+  <option value="AL">Canada</option>
+  <option value="DZ">India</option>
+  <option value="AS">Russia</option>
+  <option value="AD">USA</option>
+  </select></li>
+  <li><label for="zip">ZIP Code:</label></li>
+  <li><input type="text" name="zip" /></li>
+  <li><label for="email">Email:</label></li>
+  <li><input type="text" name="email" size="50" /></li>
+  <li><label id="gender">Sex:</label></li>
+  <li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+  <li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+  <li><label>Language:</label></li>
+  <li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>
+  <li><input type="checkbox" name="nonen" value="noen" /><span>Non English</span></li>
+  <li><label for="desc">About:</label></li>
+  <li><textarea name="desc" id="desc"></textarea></li>
+  <li><input type="submit" name="submit" value="Submit" /></li>
+  </ul>
+  </form>
+  </div>
+    
+</body>
+script src="app.js"></script>
+<script src="app2.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
